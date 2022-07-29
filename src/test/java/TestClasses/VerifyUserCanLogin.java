@@ -53,9 +53,7 @@ public class VerifyUserCanLogin {
 	public void verifyUserCanLogin() throws IOException, InterruptedException
 	{
 		lp.enterEmail();
-		
 		lp.enterPassword();
-		
 		lp.clickLoginBtn();
 		
 		HomePage hp = new HomePage(driver);
